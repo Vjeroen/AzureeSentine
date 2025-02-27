@@ -25,6 +25,6 @@ provider "azurerm" {
 }
 provider "azuredevops" {
   org_service_url = "https://dev.azure.com/demo-nxt-2303"
-  personal_access_token = "Djb06TRhNgEpZWkGGPYbNCZEyxsXcdmcJ5bGKwREpfbMwWfBuQsXJQQJ99BBACAAAAAtbNtjAAASAZDO4KEO"  # Ensure you store this in a Terraform variable
+  personal_access_token = ""  # Ensure you store this in a Terraform variable
 }
 
